@@ -1,0 +1,68 @@
+:root {
+    /*Colors*/
+    --negro: #000;
+    --negro-90: rgba(0, 0, 0, 0.9);
+    --negro-70: rgba(0, 0, 0, 0.7);
+    --blanco: #fff;
+    --blanco-70: rgba(255, 255, 255, 0.7);
+    --blanco-30: rgba(255, 255, 255, 0.3);
+    --gris: #1c1c1c;
+    --gris-90: rgba(28, 28, 28, 0.9);
+    --gris-70: rgba(28, 28, 28, 0.7);
+    --gris-claro: #808080;
+
+    --azul: rgb(45,98,176);
+    --azul-90: rgb(45, 98, 176, 0.9);
+    --azul-70: rgb(45, 98, 176, 0.7);
+    --azul-50: rgb(45, 98, 176, 0.5);
+
+    --amarillo: rgb(255,224,0);
+
+    --naranja: rgb(255, 136, 0);
+    --naranja-90: rgb(255, 136, 0, 0.9);
+
+    --gradiente-azul: linear-gradient(to right, var(--azul-90), var(--azul-70));
+
+    /*Typography*/
+    --base-font: sans-serif;
+    --alternative-font: sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--base-font);
+    color: var(--blanco);
+    background-color: var(--negro);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2em;
+    color: inherit;
+    font-family: inherit;
+}
+
+header, footer {
+    font-family: var(--alternative-font);
+    color: var(--blanco);
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}

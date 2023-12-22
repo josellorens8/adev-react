@@ -1,0 +1,120 @@
+.header {
+    background-color: var(--gris-90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    position: absolute;
+    z-index: 200;
+}
+
+.header-cont{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.header__logo{
+    width: 70px;
+}
+
+.header__navbar{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar__list{
+    width: 100%;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    font-size: .6em;
+}
+
+.navbar__list span{
+    font-size: 3.5em;
+}
+/*BOTONES*/
+
+#bttCluster:hover {
+    text-shadow: 0 0 25px blue, 0 0 35px blue, 0 0 55px blue;
+}
+
+#bttVj:hover {
+    text-shadow: 0 0 25px rgb(255, 0, 234), 0 0 35px rgb(255, 0, 234),
+        0 0 55px rgb(255, 0, 234);
+}
+
+#BttCourse:hover {
+    text-shadow: 0 0 25px orange, 0 0 35px orange, 0 0 55px orange;
+}
+
+#bttEvents:hover {
+    text-shadow: 0 0 25px white, 0 0 35px white, 0 0 55px white;
+}
+
+#bttNews:hover {
+    text-shadow: 0 0 25px rgb(94, 94, 94), 0 0 35px rgb(94, 94, 94),
+        0 0 55px rgb(94, 92, 92);
+}
+
+/* The switch - the box around the slider */
+
+.header__switch{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    /* font-size: 17px; */
+    position: relative;
+    display: inline-block;
+    width: 25px;
+    height: 50px;
+    top: 0px;
+    left: 0px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    border: 2px solid #414141;
+    border-radius: 50px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 1px;
+
+    background-color: white;
+    border-radius: inherit;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.switch input:checked+.slider {
+    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+    border: 2px solid #0974f1;
+}
+
+.switch input:checked+.slider:before {
+    transform: translateY(25px);
+}

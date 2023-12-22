@@ -1,0 +1,46 @@
+* {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 164, 0);
+}
+
+html {
+    background-color: black;
+
+}
+
+li {
+    margin: auto;
+    font-size: 35px;
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: start;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#buscador {
+    width: 150px;
+    height: 27px;
+    font-size: 15px;
+    color: rgb(0, 164, 0);
+    border: 5px solid green;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    outline: rgb(97, 255, 97);
+}
+
+.filtro {
+    display: none;
+    background-color: aqua;
+}
+
+.filtrador {
+    display: none;
+}
