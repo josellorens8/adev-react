@@ -3,13 +3,13 @@ import './Main.css'
 function Main() {
     return (
 
-        <main class="container">
+        <main className="container">
 
-            <section class="adev">
+            <section className="adev">
 
-                <h1 class="adev__title">¿Que es ADEV?</h1>
+                <h1 className="adev__title">¿Que es ADEV?</h1>
 
-                <p class="adev__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore minus eaque, nam aliquam numquam hic,
+                <p className="adev__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempore minus eaque, nam aliquam numquam hic,
                     tempora doloremque facilis, assumenda voluptas totam nobis repudiandae laborum sunt cupiditate odio ab quos.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo minima incidunt ea non dicta
                     perspiciatis corporis illum vel repellendus quis! Quod exercitationem corporis, repellat voluptate omnis
@@ -22,19 +22,19 @@ function Main() {
                     perferendis.
                 </p>
             </section>
-            <h1 class="adev__title">Asociate</h1>
-            <p class="adev__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dolorum, magnam architecto, iure sequi cupiditate
+            <h1 className="adev__title">Asociate</h1>
+            <p className="adev__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod dolorum, magnam architecto, iure sequi cupiditate
             </p>
 
-            <div class="img_back">
-                <div class="filtro">
+            <div className="img_back">
+                <div className="filtro">
                     <a href="#" id="btn">Inscribirme a formulario</a>
                 </div>
             </div>
 
-            <h1 class="adev__title">Contactanos</h1>
+            <h1 className="adev__title">Contactanos</h1>
 
-            <p class="adev__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque quia architecto saepe sunt dolore quod
+            <p className="adev__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi atque quia architecto saepe sunt dolore quod
                 adipisci at reiciendis autem nihil laudantium natus, illo voluptate, cumque consectetur, placeat delectus ex.
             </p>
 

@@ -1,10 +1,9 @@
-import Main from "./Main"
-
+import Hero from "./Hero"
 function Cursos() {
 
     return (
       <>
-        <Main />
+        <Hero />
       </>
     )
   }

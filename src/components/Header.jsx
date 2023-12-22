@@ -1,34 +1,37 @@
 import LogoAdev from '../assets/Imagenes/Logo Adev/ADEVblanco.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
     return (
-        <header class="header">
-        <div class="header-cont container">
+        <header className="header">
+        <div className="header-cont container">
     
-            <div class="header__logo">
+            <div className="header__logo">
+                <Link to="/">
                 <img src={LogoAdev} alt="Logo Adev"/>
+                </Link>
             </div>
-            <nav class="header__navbar">
-                <ul class="navbar__list">
-                    <li><a id="bttCluster" href="#"><strong>Cluster</strong></a></li>
+            <nav className="header__navbar">
+                <ul className="navbar__list">
+                    <li><Link id="bttCluster" to="#"><strong>Cluster</strong></Link></li>
                     <span>|</span>
-                    <li><a id="bttVj" href="#"><strong>Videojuegos</strong></a></li>
+                    <li><Link id="bttVj" to="#"><strong>Videojuegos</strong></Link></li>
                     <span>|</span>
-                    <li><a id="BttCourse" href="#"><strong>Cursos</strong> </a></li>
+                    <li><Link id="BttCourse" to="/cursos"><strong>Cursos</strong> </Link></li>
                     <span>|</span>
-                    <li><a id="bttEvents" href="#"><strong>Eventos</strong></a></li>
+                    <li><Link id="bttEvents" to="#"><strong>Eventos</strong></Link></li>
                 <span>|</span>
-                <li><a id="bttNews" href="#"><strong>Noticias</strong></a></li>
+                <li><Link id="bttNews" to="#"><strong>Noticias</strong></Link></li>
             </ul>
         </nav>
         
   
-        <div class="header__switch">
-            <label class="switch">
+        <div className="header__switch">
+            <label className="switch">
                 <input type="checkbox"/>
-                <span class="slider"></span>
+                <span className="slider"></span>
                 
             </label>
         </div>

@@ -1,14 +1,19 @@
+import Cursos from './components/Cursos'
 import Header from './components/Header'
-import Hero from './components/Hero'
-import Main from './components/Main'
+import Home from './components/Home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
 
   return (
     <>
-      <Header/>
-      <Hero/>
-      <Main/>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/cursos' element={<Cursos />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
