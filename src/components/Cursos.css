@@ -1,0 +1,70 @@
+.cursos__hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+    background-color: var(--gris);
+}
+
+.cursos__filtro{
+    position: absolute;
+}
+.cursos__hero__title{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.cursos__hero__text{
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+.cursos__categoria{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 10%;
+}
+
+.categoria__titulo{
+    width: fit-content;
+    font-size: 2em;
+    border-bottom: 8px solid white;
+    margin-bottom: 2%;
+}
+
+.categoria__cards{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+}
+
+.card__item a{
+    width: 100%;
+    height: 100%;
+}
+
+.card__item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__item h3{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.card__item p{
+    font-size: 1.2em;
+}

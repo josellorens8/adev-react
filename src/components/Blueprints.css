@@ -1,0 +1,39 @@
+.curso__main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, var(--negro) 0%, var(--naranja) 100%);
+    padding-top: 10%;
+}
+
+.curso{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2%;
+    margin-top: 5%;
+    
+}
+
+.curso__title{
+    font-size: 1.8em;
+    font-weight: 800;
+    border-bottom: 8px solid white;
+    width: fit-content;
+}
+
+.curso__nombre{
+    font-size: 3em;
+    font-weight: 900;
+}
+
+.curso__empresa{
+    font-size: 1.6em;
+    font-weight: 700;
+}
+
+.curso__descripcion{
+    font-weight: 400;
+    font-size: 1.2em;
+}
