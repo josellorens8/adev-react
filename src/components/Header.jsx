@@ -15,7 +15,7 @@ function Header() {
             </div>
             <nav className="header__navbar">
                 <ul className="navbar__list">
-                    <li><Link id="bttCluster" to="#"><strong>Cluster</strong></Link></li>
+                    <li><Link id="bttCluster" to="/cluster"><strong>Cluster</strong></Link></li>
                     <span>|</span>
                     <li><Link id="bttVj" to="#"><strong>Videojuegos</strong></Link></li>
                     <span>|</span>

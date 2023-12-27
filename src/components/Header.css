@@ -4,9 +4,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: fit-content;
     padding: 1%;
     position: absolute;
     z-index: 200;
+    overflow: hidden;
 }
 
 .header-cont{
@@ -16,7 +18,7 @@
     justify-content: center;
 }
 .header__logo{
-    width: 70px;
+    width: 50px;
 }
 
 .header__navbar{
@@ -41,7 +43,8 @@
 }
 /*BOTONES*/
 
-#bttCluster:hover {
+#bttCluster:hover,
+#bttCluster:active {
     text-shadow: 0 0 25px blue, 0 0 35px blue, 0 0 55px blue;
 }
 
@@ -50,7 +53,8 @@
         0 0 55px rgb(255, 0, 234);
 }
 
-#BttCourse:hover {
+#BttCourse:hover,
+#BttCourse::marker {
     text-shadow: 0 0 25px orange, 0 0 35px orange, 0 0 55px orange;
 }
 

@@ -1,4 +1,4 @@
-.cursos__hero{
+.cluster__hero{
     width: 100%;
     height: 100%;
     display: flex;
@@ -6,24 +6,23 @@
     align-items: center;
     justify-content: center;
     padding-top: 10%;
-    text-align: center;
     background-color: var(--gris);
 }
 
-.cursos__filtro{
+.cluster__filtro{
     position: absolute;
 }
-.cursos__hero__title{
+.cluster__hero__title{
     font-size: 3em;
     font-weight: 900;
 }
 
-.cursos__hero__text{
+.cluster__hero__text{
     font-size: 1.3em;
     font-weight: 900;
 }
 
-.cursos__categoria{
+.cluster__categoria{
     width: 100%;
     height: 50vh;
     margin-bottom: 10%;
@@ -32,7 +31,6 @@
 .categoria__titulo{
     width: fit-content;
     font-size: 2em;
-    border-bottom: 8px solid white;
     margin-bottom: 2%;
 }
 
