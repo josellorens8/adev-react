@@ -66,3 +66,12 @@
     color: var(--gris);
     border: 5px var(--gris) solid;
 }
+
+@media only screen and (max-width: 600px) {
+.hero{
+    padding: 5% 10% 0% 10%;
+}
+.hero__title{
+    font-size: 1.4em;
+}
+}
