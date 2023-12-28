@@ -1,0 +1,31 @@
+.card {
+    width: 80%;
+  }
+  
+  .card-title {
+    padding: 2%;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .cards-container{
+    padding-bottom: 10%;
+  }
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .modal{
+    background-color: var(--gris);
+    width: 100%;
+    padding: 5%;
+  }
+
+  .selected{
+    background-color: var(--gris);
+  }

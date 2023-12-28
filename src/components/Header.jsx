@@ -17,11 +17,11 @@ function Header() {
                 <ul className="navbar__list">
                     <li><Link id="bttCluster" to="/cluster"><strong>Cluster</strong></Link></li>
                     <span>|</span>
-                    <li><Link id="bttVj" to="#"><strong>Videojuegos</strong></Link></li>
+                    <li><Link id="bttVj" to="/videojuegos"><strong>Videojuegos</strong></Link></li>
                     <span>|</span>
                     <li><Link id="BttCourse" to="/cursos"><strong>Cursos</strong> </Link></li>
                     <span>|</span>
-                    <li><Link id="bttEvents" to="#"><strong>Eventos</strong></Link></li>
+                    <li><Link id="bttEvents" to="/eventos"><strong>Eventos</strong></Link></li>
                 <span>|</span>
                 <li><Link id="bttNews" to="#"><strong>Noticias</strong></Link></li>
             </ul>
